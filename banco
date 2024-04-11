@@ -1,0 +1,8 @@
+create database bdJao;
+
+create table Alunos(
+nome varchar(20), 
+idade int,
+curso varchar(10),
+matricula int unique
+)
